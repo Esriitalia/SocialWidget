@@ -1,0 +1,13 @@
+{
+  "name": "twitter_proxy",
+  "version": "0.0.1",
+  "description": "A proxy server for Twitter",
+  "main": "twitter_proxy.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "oauth": "^0.9.14",
+    "twitter": "^1.2.5",
+    "uid": "0.0.2"
+  }
+}

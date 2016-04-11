@@ -1,0 +1,100 @@
+<div>
+
+  <!--   title   -->
+<!--
+  <div class="jimu-r-row header">
+    ${config.social}
+  </div>
+--> 
+ 
+  <img class="jimu-r-row header center" src="${folderUrl}/images/${config.social}Logo.png" alt="${config.social}">
+
+    <hr>
+
+    <div class="jimu-r-row"></div>
+
+    <!--   user information and sign in area   -->
+
+    <div class="jimu-r-row right userInfo">
+
+        <!--   div before user authentication   -->
+
+        <div class="jimu-r-row" data-dojo-attach-point="divNoUser">
+
+            <div class="jimu-btn signin youtube" data-dojo-attach-point="btnSignin" data-dojo-type="dijit/form/Button">
+
+                <span style="background-image: url(${folderUrl}/images/${config.social}Icon.png)">Signin with ${config.social}</span>
+
+            </div>
+            
+        </div>
+
+        <!--   div after user authentication   -->
+
+        <div class="jimu-r-row hidden" data-dojo-attach-point="divUser">
+
+            <div class="col-1-2">
+                <div class="jimu-r-row bold">${nls.account}:</div>
+                <a href="" target='_blank' class="jimu-r-row" data-dojo-attach-point="divUsername"></a>
+            </div>
+
+            <div class="col-1-2">
+                <div class="jimu-btn right" data-dojo-attach-point="btnLogout" data-dojo-type="dijit/form/Button">
+                    ${nls.logout}
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="jimu-r-row"></div>
+
+    <!--   query info   -->
+
+    <div class="hidden" data-dojo-attach-point="divQuery">
+
+        <!--   query   -->
+
+        <div class="jimu-r-row">
+
+            <label class="col-1-4">${nls.query}:</label>
+            <div class="col-3-4">
+                <input class="jimu-input" type="text" data-dojo-attach-point="txtQuery" />
+            </div>
+        </div>
+
+        <div class="jimu-r-row"></div>
+
+
+        <!--   density   -->
+
+
+        <div class="jimu-r-row">
+
+            <label class="col-1-4">${nls.density}:</label>
+            <div class="col-3-4">
+                <input name="txtDensity" data-dojo-attach-point="txtDensity"> </input>
+            </div>
+        </div>
+
+        <div class="jimu-r-row"></div>
+        
+        <div class="jimu-r-row" style="text-align: center;">*${nls.densityMessage}</div>
+       
+        <div class="jimu-r-row"></div>
+        
+        
+
+        <!--   search button   -->
+
+        <div class="jimu-btn col-1-4 right" data-dojo-attach-point="btnSearch" data-dojo-type="dijit/form/Button">
+            ${nls.search}
+        </div>
+
+        <div class="jimu-r-row"></div>
+
+    </div>
+
+
+</div>

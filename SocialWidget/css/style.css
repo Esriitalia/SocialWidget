@@ -1,0 +1,92 @@
+/****************************\
+|      socil widget css      |
+\****************************/
+
+.jimu-widget-social .hidden{
+    display: none;
+}
+
+.jimu-widget-social .transparent{
+    background-color: transparent;
+}
+
+.jimu-widget-social .center{
+    display: block;
+    margin: 0 auto;
+}
+.jimu-widget-social .left{
+    float: left;
+}
+.jimu-widget-social .right{
+    float: right;
+}
+
+.jimu-widget-social .bold{
+    font-weight: bold;
+}
+
+.jimu-widget-social .sepatator{
+    margin: 2px;
+    clear: both;
+}
+
+.jimu-widget-social .header{
+    font-size: 18px;
+    text-align: center;
+    max-width: 300px;
+    max-height: 60px;
+    width: 100%;
+    height: auto;
+}
+
+.jimu-widget-social label{
+    line-height: 30px;
+}
+
+
+.jimu-widget-social .signin {
+    display: table;
+    margin: 0 auto;
+}
+
+.jimu-widget-social .signin span{    
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: 20px;
+}
+
+
+/*****************************\
+|      info template css      |
+\*****************************/
+
+
+.jimu-widget-social-infoTemplate .userImage{  
+    
+    height: 48px;
+    width: 48px;
+        
+    border-radius: 24px;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;    
+    
+}
+
+.jimu-widget-social-infoTemplate.bold{
+    font-weight: bold;
+}
+
+.jimu-widget-social-infoTemplate.left{
+    float: left;
+}
+
+.jimu-widget-social-infoTemplate.userInfo{
+    margin-top: 20px; 
+    margin-left: 15px; 
+}
+
+.jimu-widget-social-infoTemplate.center{
+    margin: 0 auto;   
+}
+

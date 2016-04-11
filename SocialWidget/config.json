@@ -1,0 +1,58 @@
+{
+
+    "social":"Instagram",
+    
+    "twitter": {
+        "urls":{
+            "oauth": "http://localhost:3000/twitter_proxy/oauth",
+            "check": "http://localhost:3000/twitter_proxy/check",
+            "logout": "http://localhost:3000/twitter_proxy/logout",
+            "search": "http://localhost:3000/twitter_proxy/search"
+	   }
+    },	    
+	
+	"instagram":{
+	
+		"urls":{	    
+			"oauth": "https://instagram.com/oauth/authorize/",
+			"check": "https://api.instagram.com/v1/users/self/",
+			"logout": "https://instagram.com/accounts/logout/",
+			"search": "https://api.instagram.com/v1/media/search"
+
+		},
+		
+		"client_id": ""	
+	},
+
+    
+    "youtube":{
+	
+		"urls":{	    
+			"oauth": "https://accounts.google.com/o/oauth2/auth",
+			"check": "https://www.googleapis.com/oauth2/v1/tokeninfo",
+			"logout": "https://accounts.google.com/o/oauth2/revoke",
+			"search": "https://www.googleapis.com/youtube/v3/search",
+            "video": "https://www.googleapis.com/youtube/v3/videos",
+            "channel": "https://www.googleapis.com/youtube/v3/channels"
+		},
+		
+		"client_id": ""	
+	},
+    
+    
+    "fixedKeyword": false,    
+    "keyword": "",
+    
+    "density":{
+        "defaultDensity": 8,
+        "minDensity": 1,
+        "maxDensity": 10,
+        "deltaDensity": 1,
+        "defaultGPE": 20,
+        "maxGPE": 50,
+        "maxGPL": 300
+    }
+
+
+
+}

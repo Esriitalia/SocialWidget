@@ -1,0 +1,14 @@
+{
+  "name": "SocialWidget",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.1",
+  "wabVersion": "0.1",
+  "author": "Andrea Lorino",
+  "description": "Social Widget",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+
+
+}
